@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h1 style={{fontFamily: 'Ma Shan Zheng'}} className='text-3xl'>SADDAM</h1>
+        <h1 style={{ fontFamily: "Ma Shan Zheng" }} className="text-3xl">
+          SADDAM
+        </h1>
       </div>
 
       {/* menu */}
@@ -32,12 +34,12 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li>
           <Link to="/contact" smooth={true} duration={500}>
-            Contact
+            Contact Me
           </Link>
         </li>
       </ul>
@@ -70,7 +72,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="/work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -81,7 +83,7 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Contact
+            Contact Me
           </Link>
         </li>
       </ul>
